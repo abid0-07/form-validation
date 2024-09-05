@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Vehicle Registration Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <h1>Form of Application for the Registration of Motor Vehicle</h1>
+
+    <div class="section">
+        <h2>Section I: To be filled in by the office</h2>
+        <label for="regnNo">Regn No:</label>
+        <input type="text" id="regnNo" name="regnNo">
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        
+        <label for="prevRegnNo">Prev. Regn. No (If any):</label>
+        <input type="text" id="prevRegnNo" name="prevRegnNo">
+        
+        <label for="issueNo">Issue No:</label>
+        <input type="text" id="issueNo" name="issueNo">
+        
+        <label for="issueDate">Date:</label>
+        <input type="date" id="issueDate" name="issueDate">
+        
+        <label for="issueBy">Issued by:</label>
+        <input type="text" id="issueBy" name="issueBy">
+        
+        <label for="diaryNo">Diary No:</label>
+        <input type="text" id="diaryNo" name="diaryNo">
+        
+        <label for="receivedBy">Received by:</label>
+        <input type="text" id="receivedBy" name="receivedBy">
+        
+        <label for="customerId">Customer ID:</label>
+        <input type="text" id="customerId" name="customerId">
+        
+        <label for="district">District:</label>
+        <input type="text" id="district" name="district">
+        
+        <label for="vehicleId">Vehicle ID:</label>
+        <input type="text" id="vehicleId" name="vehicleId">
+        
+        <label for="remarks">Remarks (if any):</label>
+        <textarea id="remarks" name="remarks"></textarea>
+    </div>
+
+    <div class="section">
+        <h2>Section II: Owner Information</h2>
+        <label for="ownerName">Name of Owner:</label>
+        <input type="text" id="ownerName" name="ownerName">
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        
+        <label for="fatherHusband">Father/Husband:</label>
+        <input type="text" id="fatherHusband" name="fatherHusband">
+        
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality">
+        
+        <label for="sex">Sex:</label>
+        <input type="text" id="sex" name="sex">
+        
+        <label for="guardianName">Guardian’s Name:</label>
+        <input type="text" id="guardianName" name="guardianName">
+        
+        <label for="ownerAddress">Owner’s Address:</label>
+        <input type="text" id="ownerAddress" name="ownerAddress">
+        
+        <label for="phoneNo">Phone No:</label>
+        <input type="tel" id="phoneNo" name="phoneNo">
+        
+        <label for="poBank">P.O./Bank:</label>
+        <input type="text" id="poBank" name="poBank">
+    </div>
+
+    <div class="section">
+        <h2>Section III: Vehicle Information</h2>
+        <label for="vehicleClass">Class of Vehicle:</label>
+        <input type="text" id="vehicleClass" name="vehicleClass">
+        
+        <label for="prevRegnNoVehicle">Prev. Regn. No (if any):</label>
+        <input type="text" id="prevRegnNoVehicle" name="prevRegnNoVehicle">
+        
+        <label for="makersName">Maker’s Name:</label>
+        <input type="text" id="makersName" name="makersName">
+        
+        <label for="typeOfBody">Type of Body:</label>
+        <input type="text" id="typeOfBody" name="typeOfBody">
+        
+        <label for="makersCountry">Maker’s Country:</label>
+        <input type="text" id="makersCountry" name="makersCountry">
+        
+        <label for="color">Color (cabin/body):</label>
+        <input type="text" id="color" name="color">
+        
+        <label for="yearOfManufacture">Year of Manufacture:</label>
+        <input type="number" id="yearOfManufacture" name="yearOfManufacture">
+        
+        <label for="chassisNo">Chassis Number:</label>
+        <input type="text" id="chassisNo" name="chassisNo">
+        
+        <label for="engineNo">Engine Number:</label>
+        <input type="text" id="engineNo" name="engineNo">
+        
+        <label for="fuelUsed">Fuel Used:</label>
+        <input type="text" id="fuelUsed" name="fuelUsed">
+        
+        <label for="horsePower">Horse Power:</label>
+        <input type="number" id="horsePower" name="horsePower">
+        
+        <label for="cubicCapacity">Cubic Capacity:</label>
+        <input type="number" id="cubicCapacity" name="cubicCapacity">
+        
+        <label for="seats">Seats (incl. driver):</label>
+        <input type="number" id="seats" name="seats">
+        
+        <label for="unladenWeight">Unladen Weight (kg):</label>
+        <input type="number" id="unladenWeight" name="unladenWeight">
+        
+        <label for="maxLadenWeight">Maximum Laden/Train Weight (kg):</label>
+        <input type="number" id="maxLadenWeight" name="maxLadenWeight">
+    </div>
+
+    <div class="section">
+        <h2>Section VI: Declaration</h2>
+        <label for="declaration">Declaration by Owner:</label>
+        <textarea id="declaration" name="declaration" rows="4">I the undersigned do hereby declare that to the best of my knowledge and belief, the information given and the documents enclosed are true...</textarea>
+        
+        <div class="signature">
+            <div>
+                <label for="ownerSignature">Signature of Owner:</label>
+                <input type="text" id="ownerSignature" name="ownerSignature">
+            </div>
+            <div>
+                <label for="dateSignature">Date:</label>
+                <input type="date" id="dateSignature" name="dateSignature">
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section VII: Fees and Tax Accounts</h2>
+        <label for="feesTax">Necessary fees and taxes amounting to:</label>
+        <input type="text" id="feesTax" name="feesTax">
+        
+        <label for="poBankFees">Paid to P.O./Bank:</label>
+        <input type="text" id="poBankFees" name="poBankFees">
+        
+        <label for="vouchers">Vouchers and Receipts Enclosed:</label>
+        <input type="text" id="vouchers" name="vouchers">
+    </div>
+
+</body>
+</html>
