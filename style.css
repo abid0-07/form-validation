@@ -6,13 +6,13 @@ body {
     /* border: 1px solid #ccc; */
     /* border-radius: 5px; */
     padding: 2rem;
-    margin: 5rem;
-    background-color: rgb(158, 137, 97);
+    margin: .5rem;
+    background-color: rgb(230, 226, 221);
     
 }
 h1{
     text-align: center;
-    color: #bad640;
+    color: #2c2c2b;
     font-size: 3rem;
 }
 h2 {
