@@ -16,40 +16,40 @@
         <div class="section">
             <fieldset>
                 <legend>Section I: To be filled in by the office</legend>
-                <label for="regnNo">Regn No:</label>
+                <label for="regnNo">Regn No</label>
                 <input type="text" id="regnNo" name="regnNo">
 
-                <label for="date">Date:</label>
+                <label for="date">Date</label>
                 <input type="date" id="date" name="date">
 
-                <label for="prevRegnNo">Prev. Regn. No (If any):</label>
+                <label for="prevRegnNo">Prev. Regn. No (If any)</label>
                 <input type="text" id="prevRegnNo" name="prevRegnNo">
 
-                <label for="issueNo">Issue No:</label>
+                <label for="issueNo">Issue No</label>
                 <input type="text" id="issueNo" name="issueNo">
 
-                <label for="issueDate">Date:</label>
+                <label for="issueDate">Date</label>
                 <input type="date" id="issueDate" name="issueDate">
 
-                <label for="issueBy">Issued by:</label>
+                <label for="issueBy">Issued by</label>
                 <input type="text" id="issueBy" name="issueBy">
 
-                <label for="diaryNo">Diary No:</label>
+                <label for="diaryNo">Diary No</label>
                 <input type="text" id="diaryNo" name="diaryNo">
 
-                <label for="receivedBy">Received by:</label>
+                <label for="receivedBy">Received by</label>
                 <input type="text" id="receivedBy" name="receivedBy">
 
-                <label for="customerId">Customer ID:</label>
+                <label for="customerId">Customer ID</label>
                 <input type="text" id="customerId" name="customerId">
 
-                <label for="district">District:</label>
+                <label for="district">District</label>
                 <input type="text" id="district" name="district">
 
-                <label for="vehicleId">Vehicle ID:</label>
+                <label for="vehicleId">Vehicle ID</label>
                 <input type="text" id="vehicleId" name="vehicleId">
 
-                <label for="remarks">Remarks (if any):</label>
+                <label for="remarks">Remarks (if any)</label>
                 <textarea id="remarks" name="remarks"></textarea>
             </fieldset>
             <h2></h2>
@@ -93,12 +93,15 @@
         <div class="section">
             <fieldset>
                 <legend>Section III: Vehicle Information</legend>
-
-                <label for="vehicleClass">Class of Vehicle:</label>
-                <input type="text" id="vehicleClass" name="vehicleClass">
+                <label for="vehicleOrTrailer">Vehicle or Trailer</label>
+                <input type="text" id="vehicleOrTrailer" name="vehicleOrTrailer">
 
                 <label for="prevRegnNoVehicle">Prev. Regn. No (if any):</label>
                 <input type="text" id="prevRegnNoVehicle" name="prevRegnNoVehicle">
+                
+                <label for="vehicleClass">Class of Vehicle:</label>
+                <input type="text" id="vehicleClass" name="vehicleClass">
+
 
                 <label for="makersName">Maker’s Name:</label>
                 <input type="text" id="makersName" name="makersName">
@@ -127,11 +130,20 @@
                 <label for="horsePower">Horse Power:</label>
                 <input type="number" id="horsePower" name="horsePower">
 
+                <label for="rpm">RPM</label>
+                <input type="text" id="rpm" name="rpm">
+
                 <label for="cubicCapacity">Cubic Capacity:</label>
                 <input type="number" id="cubicCapacity" name="cubicCapacity">
 
                 <label for="seats">Seats (incl. driver):</label>
                 <input type="number" id="seats" name="seats">
+
+                <label for="numerOfStandee">No. of Standee</label>
+                <input type="text" id="numerOfStandee" name="numerOfStandee">
+
+                <label for="wheelBase">Wheel Base</label>
+                <input type="text" id="wheelBase" name="wheelBase">
 
                 <label for="unladenWeight">Unladen Weight (kg):</label>
                 <input type="number" id="unladenWeight" name="unladenWeight">
@@ -139,13 +151,47 @@
                 <label for="maxLadenWeight">Maximum Laden/Train Weight (kg):</label>
                 <input type="number" id="maxLadenWeight" name="maxLadenWeight">
             </fieldset>
-            <h2></h2>
         </div>
 
         <div class="section">
             <fieldset>
+                <legend> Section IV: Additional Information for transport vehicle</legend>
+                <label for="noTyres">No. of tyres</label>
+                <input type="text" id="noTyres" name="noTyres">
+
+                <label for="tyreSize">Tyre Size</label>
+                <input type="text" id="tyreSize" name="tyreSize">
+
+                <label for="noAxle">No. of Axle</label>
+                <input type="text" id="noAxle" name="noAxle">
+                
+                <h2>Dimensions (mm)</h2>
+                <label for="overallLength">Overall length</label>
+                <input type="text" id="overallLength" name="noAxle">
+
+                <label for="overallWidth">Overall width</label>
+                <input type="text" id="overallWidth" name="overallWidth">
+
+                <label for="overallHeight">Overall Height</label>
+                <input type="text" id="overallHeight" name="overallHeight">
+
+                <h2>Overhangs (%)</h2>
+                <label for="front">Front</label>
+                <input type="text" id="front" name="front">
+
+                <label for="rear">Rear</label>
+                <input type="text" id="rear" name="rear">
+
+                <label for="other">Other</label>
+                <input type="text" id="other" name="other">
+            </fieldset>
+        </div>
+
+
+        <div class="section">
+            <fieldset>
                 <legend>
-                    Section VI: Declaration
+                    Section V: Declaration, Certificates and Documents
                 </legend>
                 <label for="declaration">Declaration by Owner:</label>
                 <textarea id="declaration" name="declaration"
@@ -178,6 +224,7 @@
                 <label for="vouchers">Vouchers and Receipts Enclosed:</label>
             </fieldset>
         </div>
-    
+
 </body>
+
 </html>
